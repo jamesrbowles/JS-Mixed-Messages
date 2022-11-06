@@ -1,11 +1,11 @@
-#Muhammad Ali random quote generator#
+# Muhammad Ali random quote generator #
 
 Every time a user runs this program they will get a random quote said by Muhammad Ali
 
-##Purpose##
+## Purpose ##
 
-This is a portfolio project from Codecademy, testing Javascript, command line, git and github knowledge.
+This is a portfolio project from Codecademy, testing Javascript, command-line, git and github knowledge.
 
-##Languages##
+## Languages ##
 
 * Javascript
