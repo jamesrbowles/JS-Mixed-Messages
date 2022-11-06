@@ -1,15 +1,35 @@
-// Muhammad Ali random quote generator
+// Object Array of quotes
 
-// Array of quotes
-
-let quotes = ["Float like a butterfly, sting like a bee.", "Don't count the days. Make the days count.", "Impossible is temporary. Impossible is nothing.", "If my mind can conceive it, if my heart can believe it--then I can achieve it.", "I am the greatest. I said that even before I knew I was.", "A man who has no imagination has no wings.", "It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe.", "It's not bragging if you can back it up.", "I should be a postage stamp. That's the only way I'll ever get licked.", "He who is not courageous enough to take risks will accomplish nothing in life.", "I shook up the world. Me!"]
+let quotes = 
+[
+    {
+        quote: "I hated every minute of training, but I said, ‘Don’t quit. Suffer now and live the rest of your life as a champion’",
+        boxer: "Muhammad Ali"
+    },
+    {
+        quote: "The hero and the coward both feel the same thing. But the hero uses his fear, projects it onto his opponent, while the coward runs. It’s the same thing, fear, but it’s what you do with it that matters.",
+        boxer: "Cus D’amato"
+    },
+    {
+        quote: "If you work hard in training, the fight is easy.",
+        boxer: "Manny Pacquiao"
+    },
+    {
+        quote: "You never lose until you actually give up.",
+        boxer: "Mike Tyson"
+    },
+    {
+        quote: "It ain’t about how hard you can hit. It’s about how hard you can get hit and keep moving forward.",
+        boxer: "Rocky Balboa"
+    }
+]
 
 
 // Function that returns a random quote
 
 const genRandomQuote = () => {
     let random = Math.floor(Math.random() * quotes.length)
-    return quotes[random];
+    return `"${quotes[random].quote}" by ${quotes[random].boxer}`
 }
 
 

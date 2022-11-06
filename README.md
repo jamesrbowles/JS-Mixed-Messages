@@ -1,6 +1,6 @@
-# Muhammad Ali random quote generator #
+# Boxer random quote generator #
 
-Every time a user runs this program they will get a random quote said by Muhammad Ali
+Every time a user runs this program they will get a random famous quote by a boxer
 
 ## Purpose ##
 
